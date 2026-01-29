@@ -634,7 +634,7 @@ async function exploreByBorder(borderCode) {
         
         if (data && data[0]) {
             currentCountryData = data[0];
-
+updateCountryDashboardUI()
             displayCountry(currentCountryData); 
             updateWeatherUI(); 
             updateSunTimesUI();
